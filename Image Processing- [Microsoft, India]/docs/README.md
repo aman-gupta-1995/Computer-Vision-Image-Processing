@@ -71,7 +71,7 @@ covers reporting bugs, requesting features and submitting code changes.
 
 This module would never have been possible without
 the help and code contributions of the following people:
-
+ 
 * [John Cupitt](https://github.com/jcupitt)
 * [Pierre Inglebert](https://github.com/pierreinglebert)
 * [Jonathan Ong](https://github.com/jonathanong)
