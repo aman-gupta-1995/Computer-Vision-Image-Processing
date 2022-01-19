@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/lovell/sharp/master/docs/image/sharp-logo.svg?sanitize=true" width="160" height="160" alt="sharp logo" align="right">
 
 The typical use case for this high speed Node.js module
-is to convert large images in common formats to  
+is to convert large images in common formats to 
 smaller, web-friendly JPEG, PNG and WebP images of varying dimensions. 
 
 Resizing an image is typically 4x-5x faster than using the
