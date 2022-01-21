@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const libvips = require('../lib/libvips'); 
+const libvips = require('../lib/libvips');  
 const npmLog = require('npmlog');
 
 if (process.platform === 'win32') {
