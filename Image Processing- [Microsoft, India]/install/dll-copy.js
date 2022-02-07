@@ -7,7 +7,7 @@ const libvips = require('../lib/libvips');
 const npmLog = require('npmlog');    
  
 if (process.platform === 'win32') {   
-  const buildDir = path.join(__dirname, '..', 'build');
+  const buildDir = path.join(__dirname, '..', 'build'); 
   const buildReleaseDir = path.join(buildDir, 'Release');
   npmLog.info('sharp', `Creating ${buildReleaseDir}`);
   try {
