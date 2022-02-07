@@ -26,7 +26,7 @@ if (process.platform === 'win32') {
         fs.copyFileSync(
           path.join(vendorLibDir, filename),
           path.join(buildReleaseDir, filename)
-        );
+        ); 
       });
   } catch (err) {
     npmLog.error('sharp', err.message);
