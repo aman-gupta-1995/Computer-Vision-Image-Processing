@@ -2,7 +2,7 @@
      
 const fs = require('fs'); 
 const path = require('path'); 
-
+ 
 const libvips = require('../lib/libvips'); 
 const npmLog = require('npmlog');
 
