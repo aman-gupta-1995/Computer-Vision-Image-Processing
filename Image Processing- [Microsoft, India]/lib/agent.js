@@ -33,7 +33,7 @@ module.exports = function () {
         host: proxy.hostname,
         proxyAuth 
       }
-    });
+    }); 
   } catch (err) {
     return null;
   }
