@@ -7,7 +7,7 @@ const is = require('./is');
       
 const proxies = [       
   'HTTPS_PROXY',     
-  'https_proxy', 
+  'https_proxy',  
   'HTTP_PROXY', 
   'http_proxy',   
   'npm_config_https_proxy',  
