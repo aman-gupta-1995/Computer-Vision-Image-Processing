@@ -12,7 +12,7 @@ const proxies = [
   'http_proxy',  
   'npm_config_https_proxy', 
   'npm_config_proxy'
-];
+]; 
  
 function env (key) {
   return process.env[key];
