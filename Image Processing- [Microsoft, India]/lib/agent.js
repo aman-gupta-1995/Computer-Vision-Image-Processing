@@ -5,7 +5,7 @@ const tunnelAgent = require('tunnel-agent');
      
 const is = require('./is');    
       
-const proxies = [     
+const proxies = [      
   'HTTPS_PROXY',    
   'https_proxy', 
   'HTTP_PROXY', 
