@@ -31,7 +31,7 @@ module.exports = function () {
       proxy: {
         port: Number(proxy.port),
         host: proxy.hostname,
-        proxyAuth
+        proxyAuth 
       }
     });
   } catch (err) {
