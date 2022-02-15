@@ -9,7 +9,7 @@ const proxies = [
   'HTTPS_PROXY',    
   'https_proxy', 
   'HTTP_PROXY', 
-  'http_proxy',
+  'http_proxy', 
   'npm_config_https_proxy',
   'npm_config_proxy'
 ];
