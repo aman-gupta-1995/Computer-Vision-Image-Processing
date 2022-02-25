@@ -19,7 +19,7 @@
 #include "common.h"
 #include "metadata.h"
 #include "pipeline.h"
-#include "utilities.h"
+#include "utilities.h" 
 #include "stats.h"
 
 NAN_MODULE_INIT(init) {
