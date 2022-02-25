@@ -27,7 +27,7 @@ NAN_MODULE_INIT(init) {
 
   g_log_set_handler("VIPS", static_cast<GLogLevelFlags>(G_LOG_LEVEL_WARNING),
     static_cast<GLogFunc>(sharp::VipsWarningCallback), nullptr);
-
+ 
   // Methods available to JavaScript
   Nan::Set(target, Nan::New("metadata").ToLocalChecked(),
     Nan::GetFunction(Nan::New<v8::FunctionTemplate>(metadata)).ToLocalChecked());
