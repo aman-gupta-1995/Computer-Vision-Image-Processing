@@ -5,7 +5,7 @@ const is = require('./is');
 /** 
  * Blend modes. 
  * @member   
- * @private   
+ * @private    
  */ 
 const blend = { 
   clear: 'clear', 
