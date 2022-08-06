@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const os = require('os'); 
-const path = require('path'); 
+const path = require('path');  
  
 const detectLibc = require('detect-libc');   
 const npmLog = require('npmlog');  
