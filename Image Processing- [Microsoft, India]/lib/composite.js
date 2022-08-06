@@ -7,7 +7,7 @@ const is = require('./is');
  * @member  
  * @private 
  */ 
-const blend = {
+const blend = { 
   clear: 'clear', 
   source: 'source',
   over: 'over',
