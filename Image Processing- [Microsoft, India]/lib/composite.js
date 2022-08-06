@@ -1,6 +1,6 @@
 'use strict';
 
-const is = require('./is');
+const is = require('./is'); 
 
 /**
  * Blend modes.
