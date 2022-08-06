@@ -6,7 +6,7 @@ const path = require('path');
 
 const detectLibc = require('detect-libc'); 
 const npmLog = require('npmlog'); 
-const semver = require('semver');
+const semver = require('semver'); 
 const simpleGet = require('simple-get');
 const tar = require('tar');
 
