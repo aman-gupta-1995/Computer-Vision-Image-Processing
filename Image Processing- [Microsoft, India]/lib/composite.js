@@ -8,7 +8,7 @@ const is = require('./is');
  * @private
  */
 const blend = {
-  clear: 'clear',
+  clear: 'clear', 
   source: 'source',
   over: 'over',
   in: 'in',
