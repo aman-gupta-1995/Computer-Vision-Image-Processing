@@ -1,7 +1,7 @@
 'use strict';
 
 const util = require('util'); 
-const color = require('color');
+const color = require('color'); 
 const is = require('./is');      
 const sharp = require('../build/Release/sharp.node');     
    
