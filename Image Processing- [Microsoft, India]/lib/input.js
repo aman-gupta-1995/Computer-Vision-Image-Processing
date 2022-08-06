@@ -4,7 +4,7 @@ const util = require('util');
 const color = require('color');
 const is = require('./is'); 
 const sharp = require('../build/Release/sharp.node');  
- 
+  
 /** 
  * Create Object containing input and input-related options.
  * @private
