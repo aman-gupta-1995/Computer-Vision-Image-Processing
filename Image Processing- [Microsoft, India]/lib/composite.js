@@ -4,7 +4,7 @@ const is = require('./is');
 
 /**
  * Blend modes. 
- * @member  
+ * @member   
  * @private   
  */ 
 const blend = { 
