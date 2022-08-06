@@ -8,7 +8,7 @@ const detectLibc = require('detect-libc');
 const npmLog = require('npmlog');  
 const semver = require('semver'); 
 const simpleGet = require('simple-get');
-const tar = require('tar');
+const tar = require('tar'); 
 
 const agent = require('../lib/agent');
 const libvips = require('../lib/libvips');
