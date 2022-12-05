@@ -32,7 +32,7 @@ namespace sharp {
     }
     return rgba;
   }
-
+ 
   // Create an InputDescriptor instance from a v8::Object describing an input image
   InputDescriptor* CreateInputDescriptor(
     v8::Local<v8::Object> input, std::vector<v8::Local<v8::Object>> &buffersToPersist
