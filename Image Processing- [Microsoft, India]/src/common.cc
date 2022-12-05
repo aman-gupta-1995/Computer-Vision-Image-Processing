@@ -1,11 +1,6 @@
 
-#include <cstdlib>
-#include <string>
-#include <string.h>
-#include <vector>
-#include <queue> 
 #include <mutex>  // NOLINT(build/c++11)
-
+ 
 #include <node.h>
 #include <node_buffer.h>
 #include <nan.h>
@@ -29,10 +24,10 @@ namespace sharp {
     std::vector<double> rgba(4);
     for (unsigned int i = 0; i < 4; i++) {
       rgba[i] = AttrTo<double>(background, i);
-    }
+    } 
     return rgba;
   }
-
+ 
   // Create an InputDescriptor instance from a v8::Object describing an input image
   InputDescriptor* CreateInputDescriptor(
     v8::Local<v8::Object> input, std::vector<v8::Local<v8::Object>> &buffersToPersist
