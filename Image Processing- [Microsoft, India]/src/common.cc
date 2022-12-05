@@ -1,6 +1,4 @@
 
-
-#include <queue>
 #include <mutex>  // NOLINT(build/c++11)
  
 #include <node.h>
