@@ -29,7 +29,7 @@ namespace sharp {
     std::vector<double> rgba(4);
     for (unsigned int i = 0; i < 4; i++) {
       rgba[i] = AttrTo<double>(background, i);
-    }
+    } 
     return rgba;
   }
 
